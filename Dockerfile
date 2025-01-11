@@ -1,4 +1,4 @@
-FROM tomcat:9.0.88-jre11
+FROM tomcat:9.0.36-jre17
 COPY target/java-example.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8081
 CMD ["catalina.sh", "run"]
